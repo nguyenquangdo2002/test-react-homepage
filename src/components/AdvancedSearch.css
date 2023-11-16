@@ -6,6 +6,26 @@
 .hero-content-advanced {
   color: gray;
 }
+
+@media screen and (max-width: 500px) {
+  .advance-search {
+    margin-left: 4rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  #advanceinp {
+    margin-left: 4rem;
+  }
+  .advance-search .advance-icon {
+    font-size: 2.5rem;
+  }
+}
+
 /* @media only screen and (min-width: 500px) {
   span {
     position: relative;

@@ -6,6 +6,7 @@ import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 
 import "./AdvancedSearch.css";
 import "./HeroSection.css";
+import "./Button.css";
 function AdvancedSearch() {
   return (
     <>
@@ -13,7 +14,7 @@ function AdvancedSearch() {
         <div className="hero-content-advanced">
           <div className="hero-btns inpbtn">
             <div className="hero-select-month">
-              <select className="input month" id="icon">
+              <select className="input month" id="advanceinp">
                 <option selected value="1">
                   All Categories
                 </option>
@@ -23,7 +24,7 @@ function AdvancedSearch() {
                 <option value="5">Wildlife</option>
               </select>
             </div>
-            <select className="input select" id="destinationSelect">
+            <select className="input select" id="advanceinp">
               <option selected value="1">
                 Any Destinations
               </option>
@@ -41,7 +42,7 @@ function AdvancedSearch() {
               <option value="Santorin">Santorin</option>
             </select>
 
-            <div className="hero-search">
+            <div className="hero-search" id="advanceinp">
               <input
                 className="input search"
                 type="search"
