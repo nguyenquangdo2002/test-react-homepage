@@ -77,8 +77,8 @@
   align-items: center;
   font-size: 1.3rem;
   top: 50px;
-  left: 114.6rem;
-  position: sticky;
+  right: 33.3rem;
+  position: absolute;
   line-height: 3rem;
   width: 4rem;
   list-style: none;
